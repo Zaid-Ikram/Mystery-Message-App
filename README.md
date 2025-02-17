@@ -31,57 +31,6 @@
 
 ---
 
-## 📦 Installation and Setup
-
-### Prerequisites
-1. **Node.js** (v14 or above)
-2. **MongoDB** (local or cloud-based, e.g., MongoDB Atlas)
-3. **Git**
-
-### Steps to Set Up Locally
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Zaid-Ikram/Mystery-Message-App.git
-   ```
-
-2. **Navigate to the project directory**:
-   ```bash
-   cd Mystery-Message-App
-   ```
-
-3. **Install dependencies**:
-   - **Backend**:
-     ```bash
-     cd backend
-     npm install
-     ```
-   - **Frontend**:
-     ```bash
-     cd ../frontend
-     npm install
-     ```
-
-4. **Set up environment variables**:
-   - Create a `.env` file in both `frontend` and `backend` folders.
-   - Use `.env.example` as a guide for required keys (e.g., `MONGO_URI`, `JWT_SECRET`, `EMAIL_SERVICE`, etc.).
-
-5. **Run the application**:
-   - **Backend**:
-     ```bash
-     cd backend
-     npm start
-     ```
-   - **Frontend**:
-     ```bash
-     cd frontend
-     npm start
-     ```
-
-6. **Access the app**:
-   - Open your browser and navigate to `http://localhost:3000`.
-
----
-
 ## 🌟 Usage
 1. **Sign Up**: Create an account using email authentication.
 2. **Generate Links**: Use your unique link to share with others.
@@ -121,6 +70,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - **MongoDB** for database management.
 - **Nodemailer** for email authentication.
 - **OpenAI API** for AI-powered message suggestions.
-   ```
-
-Let me know if you need more help! 🚀
